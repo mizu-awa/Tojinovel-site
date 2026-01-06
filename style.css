@@ -256,12 +256,19 @@ a:hover {
 
 
 /* ダウンロードリンク */
-#download {
+#download > div{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 #download a img {
     border-radius: 9999px;
+}
+
+#booth img{
+    max-width: 400px;
 }
 
 /* サンプルゲーム */
